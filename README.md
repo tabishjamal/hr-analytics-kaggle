@@ -12,6 +12,13 @@
 * Treating Missing Values
   * Deleting instances where 7 out of 14 cells are null, because they have very less information in them
   * Fill **gender** with "undisclosed" where 'NaN' is present and "diverse" where 'Other' is present 
+  * enrolled_university and education_level --> fill with mode
+  * Company_Size and Company_Type to be filled with ffill values
+  * Fill **Last_new_job** with values present in **experience** where 'Never' and 'Nan' are present
+* Data Transformation
+ * One Hot Encoding: major_discipline, gender, enrolled_university, and company_type
+ * Label Encoding: education_level, and relevent_experience
+ * Experience, Current Job Experience, and Company Size: Data has been cleaned first, by removing > and < values by ceil and floor values respectively. And both the columns has been changed from object to int.
 
 #### 3. Treating Imbalance Data and Train Test Split
 
