@@ -6,7 +6,7 @@
 ## Steps Taken
 #### 1. Exploratory Data Analysis
 * Check for Missing Values
-
+* Check for Data Imbalance
 
 #### 2. Data Cleaning
 
