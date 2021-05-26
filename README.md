@@ -21,7 +21,16 @@
  * Experience, Current Job Experience, and Company Size: Data has been cleaned first, by removing > and < values by ceil and floor values respectively. And both the columns has been changed from object to int.
 
 #### 3. Treating Imbalance Data and Train Test Split
+ * First separate Train and Validation set by 80-20 division
+ * On Test set, apply Oversampling, SMOTE. We will use both dataset and compare F-1 Score to choose model
 
 #### 4. Modelling
+ * Logistic Regression
+ * Decision Tree
+ * Random Forest
+ * (Other models such as xgBoost can also be used)
 
 #### 5. Model Selection and Evaluation
+ * Logistic Regression
+ * Decision Tree
+ * Random Forest
