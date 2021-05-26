@@ -9,6 +9,9 @@
 * Check for Data Imbalance
 
 #### 2. Data Cleaning
+* Treating Missing Values
+* * Deleting instances where 7 out of 14 cells are null, because they have very less information in them
+* * Fill **gender** with "undisclosed" where 'NaN' is present and "diverse" where 'Other' is present 
 
 #### 3. Treating Imbalance Data and Train Test Split
 
