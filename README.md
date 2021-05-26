@@ -9,3 +9,9 @@
 
 
 #### 2. Data Cleaning
+
+#### 3. Treating Imbalance Data and Train Test Split
+
+#### 4. Modelling
+
+#### 5. Model Selection and Evaluation
