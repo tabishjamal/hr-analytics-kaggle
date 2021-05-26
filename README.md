@@ -31,6 +31,5 @@
  * (Other models such as xgBoost can also be used)
 
 #### 5. Model Selection and Evaluation
- * Logistic Regression
- * Decision Tree
- * Random Forest
+ * Decision Tree with tree depth = 6
+ * F-1 score and AUC has been used for Evaluation metrics. Because data is imbalanced.
